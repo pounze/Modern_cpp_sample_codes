@@ -152,6 +152,7 @@
     <ClInclude Include="Sample.h" />
     <ClInclude Include="Set.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Thread.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

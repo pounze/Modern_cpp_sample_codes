@@ -9,6 +9,7 @@
 #include "Multimap.h"
 #include "Map.h"
 #include "ConditionVariable.h"
+#include "Thread.h"
 
 int main() {
 
@@ -77,6 +78,12 @@ int main() {
 	CV cv;
 
 	cv.run();
+
+	//Thread
+
+	Thread thread;
+
+	thread.run();
 
 	return 0;
 }
