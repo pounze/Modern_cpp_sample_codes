@@ -10,6 +10,11 @@
 #include "Map.h"
 #include "ConditionVariable.h"
 #include "Thread.h"
+#include "Future.h"
+#include "Mutex.h"
+#include "ThreadSleep.h"
+#include "Regex.h"
+#include "SmartPointers.h"
 
 int main() {
 
@@ -84,6 +89,42 @@ int main() {
 	Thread thread;
 
 	thread.run();
+
+	// Future
+
+	Future fut;
+
+	fut.run();
+
+	// Mutex
+
+	Mutex mutex;
+
+	mutex.run();
+
+	// ThreadSleep
+
+	ThreadSleep ts;
+
+	ts.run();
+
+	// Regex
+
+	Regex rgx;
+
+	rgx.match();
+
+	rgx.search();
+
+	rgx.replace();
+
+	// SmartPointers
+
+	SmartPointers sp;
+
+	sp.unique_ptr();
+
+	sp.shared_ptr();
 
 	return 0;
 }

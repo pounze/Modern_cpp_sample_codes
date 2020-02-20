@@ -144,15 +144,20 @@
   <ItemGroup>
     <ClInclude Include="ConditionVariable.h" />
     <ClInclude Include="Deque.h" />
+    <ClInclude Include="Future.h" />
     <ClInclude Include="HashMap.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MultiMap.h" />
+    <ClInclude Include="Mutex.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="Regex.h" />
     <ClInclude Include="Sample.h" />
     <ClInclude Include="Set.h" />
+    <ClInclude Include="SmartPointers.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Thread.h" />
+    <ClInclude Include="ThreadSleep.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -56,5 +56,20 @@
     <ClInclude Include="Thread.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Future.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSleep.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Regex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
